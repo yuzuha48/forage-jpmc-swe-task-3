@@ -22,6 +22,7 @@ class Graph extends Component<IProps, {}> {
     // Get element from the DOM.
     const elem = document.getElementsByTagName('perspective-viewer')[0] as unknown as PerspectiveViewerElement;
 
+    // Determine the variables and their types 
     const schema = {
       price_abc: 'float', 
       price_def: 'float', 

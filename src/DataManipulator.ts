@@ -1,5 +1,7 @@
 import { ServerRespond } from './DataStreamer';
 
+
+// Determine the variables and their types
 export interface Row {
   price_abc: number, 
   price_def: number, 
